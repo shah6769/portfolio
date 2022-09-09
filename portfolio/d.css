@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.navbar{
+    background-color: white;
+}
+.nav-link{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: white;
+    background-color:black;
+}
+ .main{
+    background: url(./p1.jpeg) no-repeat;
+    background-size: cover;
+    margin-left: 70px;
+    height: 90vh;
+    width:50% ;
+    justify-content: space-around;
+
+    
+    -webkit-box-shadow: 102px 72px 201px 65px rgba(0,0,0,0.75);
+-moz-box-shadow: 102px 72px 201px 65px rgba(0,0,0,0.75);
+box-shadow: 102px 72px 201px 65px rgba(0,0,0,0.75);
+
+}
+
+.main h3{
+    font-size: 3.4rem;
+    font-weight: 500;
+}
+
+
+.main h4{
+    font-size: 1.9rem;
+    font-weight: 400;
+}
+.main h6{
+    font-size: 1rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid rgb(233, 20, 109);
+    width:40% ;
+}
+.main .bt1{
+    height: 40px;
+    width: 128px;
+    border-radius: 5px;
+    background-color:rgb(233, 20, 109);
+   color: white;
+   outline: none;
+   border: none;
+   font-weight: bold;
+   border: radius 5px; ;
+}
+.main .bt1:hover{
+    background-color: rgb(202, 18, 95);
+    transition: 0.5s;
+    
+
+}
+.main .bt2{
+    height: 40px;
+    width: 128px;
+    border-radius: 5px;
+    background-color:transparent;
+   color:rgb(233, 20, 109);
+   outline: none;
+   border: 1px solid rgb(233, 20, 109);
+   font-weight: bold;
+   border: radius 5px; ;
+}
+.main .bt2:hover{
+    background-color: rgb(233, 20, 109);
+    transition: 0.5s;
+    color: white;
+
+}
+.about img{
+    -webkit-box-shadow: 11px 10px 13px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 10px 13px 3px rgba(0,0,0,0.75);
+box-shadow: 11px 10px 13px 3px rgba(0,0,0,0.75);
+}
+.h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.progress{
+    display: flex;
+    height: 2rem;
+    width: 104%;
+    background-color: rgb(216, 206, 206);
+    justify-content: flex-start;
+    border-radius: 0.35rem ;
+    align-items: center;
+    font-size: 01rem;
+
+   
+
+    -webkit-box-shadow: 102px 72px 201px 65px rgba(0,0,0,0.75);
+-moz-box-shadow: 102px 72px 201px 65px rgba(0,0,0,0.75);
+box-shadow: 102px 72px 201px 65px rgba(0,0,0,0.75);
+
+}
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 10px;
+    background-color: black;
+    height: 30px;
+    width: 0;
+}
+.progress p{
+    color: white;
+    padding: 0px;
+}
+.pro-value2{
+    animation: load2 3s normal forwards;
+    border-radius: 10px;
+    background-color: black;
+    height: 30px;
+    width: 0;
+}
+.pro-value3{
+    animation: load3 3s normal forwards;
+    border-radius: 10px;
+    background-color: black;
+    height: 30px;
+    width: 0;
+}
+.pro-value4{
+    animation: load4 3s normal forwards;
+    border-radius: 10px;
+    background-color: black;
+    height: 30px;
+    width: 0;
+}
+
+@keyframes load1 {
+    0%{
+         width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes load2 {
+    0%{
+         width: 0;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes load3 {
+    0%{
+         width: 0;
+    }
+    100%{
+        width: 98%;
+    }
+}
+@keyframes load4 {
+    0%{
+         width: 0;
+    }
+    100%{
+        width: 50%;
+    }
+}
+.btn1{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;background-color: black;
+    color: white;
+    border-radius: 4px;
+    text-decoration-line: none;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+.btn2{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: 1px solid black;background-color:transparent;
+    color: black;
+    border-radius: 4px;
+    text-decoration-line: none;
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+
+.control ul li{
+    list-style: none;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    cursor:pointer ;
+    letter-spacing: 2px;
+
+
+
+}
+.container{
+    
+    -webkit-box-shadow: 102px 72px 201px 65px rgba(0,0,0,0.75);
+-moz-box-shadow: 102px 72px 201px 65px rgba(0,0,0,0.75);
+box-shadow: 102px 72px 201px 65px rgba(0,0,0,0.75);
+
+}
+.column {
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+
+    
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    box-sizing: border-box;
+    content: "";
+    clear: both;
+    display: table;
+  }
